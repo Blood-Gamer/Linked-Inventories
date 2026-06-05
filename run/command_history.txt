@@ -1,0 +1,9 @@
+/kill
+/gamerule keepInventory false
+/kill
+/give BloodGamerCool netherite_sword
+/time set day
+/give BloodGamerCool minecraft:iron_chestplate
+/gamemode creative
+/gamemode survival
+/give Player793 cobblestone 64

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "sharedinventory",
+  "version": "${version}",
+  "name": "Shared Inventory",
+  "description": "Makes every player's survival inventory shared on a Fabric server.",
+  "authors": [
+    "BloodGamer"
+  ],
+  "contact": {},
+  "license": "BloodGamer Shared Inventory License v1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bloodgamer.sharedinventory.SharedInventoryMod"
+    ]
+  },
+  "mixins": [
+    "sharedinventory.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
